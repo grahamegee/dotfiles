@@ -19,3 +19,6 @@ run_emacs='emacsclient -t'
 alias emacs=$run_emacs
 export EDITOR=$run_emacs
 export ALTERNATE_EDITOR=""  # Start emacsclient start the daemon automatically
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
